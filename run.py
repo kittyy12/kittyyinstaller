@@ -68,7 +68,7 @@ print("")
 print("-----------------------------------------------------------------")
 print("[1] python3 packages   |   [2] basic packages like neofetch")
 print("[3] all (of this installer)   |   [4] what is being installed?")
-print("[5] quit")
+print("[5] quit   |   [6] Update Tool")
 print("-----------------------------------------------------------------")
 
 
@@ -128,7 +128,10 @@ if userinput == '2':
 
 elif userinput == '4':
     print(packagesbi)
-
+if userinput == '6':
+    print("in development")
+    quit()
+    
 if userinput == '3':
     print("starting script..")
     os.system("sudo python3 allpkg.py")
