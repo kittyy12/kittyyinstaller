@@ -63,12 +63,12 @@ print("")
 print("-----KittyyInstaller-----")
 print("")
 print("made by Kittyy :3")
-print("v.1.0")
+print("")
 print("")
 print("-----------------------------------------------------------------")
-print("[1] python3 packages   |   [2] basic packages like neofetch")
-print("[3] all (of this installer)   |   [4] what is being installed?")
-print("[5] quit   |   [6] Update Tool")
+print("[1] python3 packages         [2] basic packages like neofetch")
+print("[3] all (of this installer)  [4] what is being installed?")
+print("[5] quit")
 print("-----------------------------------------------------------------")
 
 
@@ -118,6 +118,8 @@ python3
 
 
 userinput = input("==> ")
+
+
 if userinput == '1':
     print("starting installer..")
     os.system("sudo python3 python3pkg.py")
@@ -128,16 +130,13 @@ if userinput == '2':
 
 elif userinput == '4':
     print(packagesbi)
-if userinput == '6':
-    print("in development")
-    quit()
-    
+
 if userinput == '3':
     print("starting script..")
     os.system("sudo python3 allpkg.py")
 
 if userinput == '5':
-    print("exitting..")
-    print("bye")
+    print("quitting..")
     quit()
+
 
