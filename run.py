@@ -133,3 +133,8 @@ if userinput == '3':
     print("starting script..")
     os.system("sudo python3 allpkg.py")
 
+if userinput == '5':
+    print("exitting..")
+    print("bye")
+    quit()
+
